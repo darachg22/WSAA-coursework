@@ -1,4 +1,5 @@
 #source used as skeleton: https://stackabuse.com/how-to-get-json-from-a-url-in-python/
+#https://www.youtube.com/watch?v=bHCHKeJ6bI8
 
 import requests
 import json
@@ -8,7 +9,7 @@ response = requests.get('https://ws.cso.ie/public/api.restful/PxStat.Data.Cube_A
 
 #Parses the response as JSON
 data = response.json()
-#Sends the file to the same folder I keep the code. This would not work until I used the 'r' to convert the line.
+#Sends the file to the same folder I keep the code. This would not work until I used the 'r' to convert the line. Source used: https://www.digitalocean.com/community/tutorials/python-raw-string
 
 file_path = r"C:\Users\darac\OneDrive\Desktop\WSAA-Coursework\assignments\data.json"
 
