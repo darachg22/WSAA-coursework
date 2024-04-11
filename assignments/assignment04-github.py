@@ -4,14 +4,14 @@
 #I do not need to see your keys (see lab2, to follow)
 #Handup: Push the program as assignment04-github.py to assignments repository.
 #Marks: Marks will be given for the functionality and layout of the code; I do expect minimal comments to indicate you know what the program is doing.
-#token: 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
+#token: 
 
 #Source to read file: https://python-forum.io/thread-26072.html
 
 #from github import Github
 
 
-#g = Github("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")
+#g = Github(")
 
 #repo = g.get_repo("darachg22/WSAA-coursework")
 
