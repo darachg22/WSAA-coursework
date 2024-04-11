@@ -8,16 +8,19 @@
 
 #Source to read file: https://python-forum.io/thread-26072.html
 
-from github import Github
+#from github import Github
 
 
-g = Github("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")
+#g = Github("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")
 
-repo = g.get_repo("darachg22/WSAA-coursework")
+#repo = g.get_repo("darachg22/WSAA-coursework")
 
-file_content = repo.get_contents("assignments/Andrew.txt")
+#file_content = repo.get_contents("assignments/Andrew.txt")
 
-print(file_content)
+#print(file_content)
 
 
+#Change the letters
 
+
+#Push back to Repository
