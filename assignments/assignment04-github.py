@@ -20,9 +20,9 @@ file = repo.get_contents("assignments/Andrew.txt", ref="main")
 file_path = file.path
 #The following line reads the file then converts it before replacing the words 'Andrew' with 'Darach'.
 file_content = (file.decoded_content).decode('utf-8').replace("Andrew", "Darach") 
-
+#This line retrieves something called the Secure Hash Algorithim, that identifies the content of the text file and verifies the changes. 
 file_sha = file.sha
-
+#Here the text file gets updated with the new changes. 
 repo.update_file(file_path, "FileUpdated", file_content, file_sha, branch="main")
 
 
